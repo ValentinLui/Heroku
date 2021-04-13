@@ -3,7 +3,7 @@
     position: relative;
     width: 100%;
     border: 1px solid black;
-    background-color: #343030;
+    background-color: Grey;
 }
 
 .form-part.list
@@ -16,14 +16,14 @@
 {
     height: 5%;
     margin-bottom: 1%;
-    background-color: #ffb200;
+    background-color: White;
 }
 
 .form-part.edit > div
 {
     position: relative;
     width: 100%;
-    left: 15%;
+    left: 0%;
 }
 
 .form-part.edit input, input:focus
@@ -31,7 +31,7 @@
     position: relative;
     top: 10%;
     height: 80%;
-    width: 100%;
+    width: 50%;
     border: none;
     outline: none;
     background-color: transparent;
@@ -41,14 +41,14 @@
 .form-part.control
 {
     height: 10%;
-    background-color: #ffb200;
+    background-color: White;
 }
 
 .form-part.control > button
 {
     width: 100%;
     height: 100%;
-    background-color: #ffb200;
+    background-color: White;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
@@ -74,5 +74,5 @@
     left: 2%;
     margin-bottom: .5rem;
     border: 1px solid #000000;
-    background-color: #ffb200;
+    background-color: White;
 }
