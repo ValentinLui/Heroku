@@ -1,0 +1,78 @@
+.form-part
+{
+    position: relative;
+    width: 100%;
+    border: 1px solid black;
+    background-color: #343030;
+}
+
+.form-part.list
+{
+    height: 700px;
+    margin-bottom: 1%;
+}
+
+.form-part.edit
+{
+    height: 5%;
+    margin-bottom: 1%;
+    background-color: #ffb200;
+}
+
+.form-part.edit > div
+{
+    position: relative;
+    width: 100%;
+    left: 15%;
+}
+
+.form-part.edit input, input:focus
+{
+    position: relative;
+    top: 10%;
+    height: 80%;
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.form-part.control
+{
+    height: 10%;
+    background-color: #ffb200;
+}
+
+.form-part.control > button
+{
+    width: 100%;
+    height: 100%;
+    background-color: #ffb200;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.controls-wrapper
+{
+    display: flex;
+    height: 30%;
+}
+
+.list .list-container
+{
+    position: relative;
+    top: 5%;
+    width: 100%;
+    height: 600px;
+    overflow-y: scroll;
+}
+
+.list .list-container .record
+{
+    position: relative;
+    width: 96%;
+    left: 2%;
+    margin-bottom: .5rem;
+    border: 1px solid #000000;
+    background-color: #ffb200;
+}

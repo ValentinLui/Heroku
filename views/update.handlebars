@@ -1,0 +1,28 @@
+<div class="form-part list" style="height: 79%;">
+    <div class="list-container" style="height: 30rem;">
+        {{#each phones}}
+            {{>record}}
+        {{/each}}
+    </div>
+</div>
+<div class="form-part edit" data-key="{{targetPhone.id}}">
+    <div class="controls-wrapper">
+        <label style="margin-right: 1%;">
+            <input type="text" name="surname" placeholder="Type surname here..." value="{{targetPhone.surname}}" oninput="lockRemoveButton()">
+        </label>
+        <label style="margin-left: 1%;">
+            <input type="text" name="number" placeholder="Type number here..." value="{{targetPhone.number}}" oninput="lockRemoveButton()">
+        </label>
+    </div>
+</div>
+<div class="controls-wrapper">
+    <div class="form-part control" style="margin-right: .25rem;">
+        <a onclick="updateRecord()">Ok</a>
+    </div>
+    <div class="form-part control" style="margin-right: .25rem; margin-left: .25rem;">
+        <button onclick="deleteRecord()" id="remove-button">Remove</button>
+    </div>
+    <div class="form-part control" style="margin-left: .25rem;">
+        <a onclick="{{goBack}}">Cancel</a>
+    </div>
+</div>
